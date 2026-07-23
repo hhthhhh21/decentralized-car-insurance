@@ -78,14 +78,14 @@ This is the **core highlight** of the off-chain processing capabilities:
 - **Functionality:**  
   Automatically extracts and structures tabular data from PDF repair quotes submitted by Garage partners.
 - **Technical Implementation:**  
-  - Utilizes the **Docling** framework alongside Deep Learning models (**DocLayNet, TableFormer**) and **Tesseract OCR** for intelligent document layout analysis[cite: 1].
+  - Utilizes the **Docling** framework alongside Deep Learning models (**DocLayNet, TableFormer**) and **Tesseract OCR** for intelligent document layout analysis.
   - Transforms unstructured PDFs into structured JSON formats.
-  - Eliminates manual data entry for Evaluators, significantly speeding up the final damage assessment and ensuring data accuracy[cite: 1].
+  - Eliminates manual data entry for Evaluators, significantly speeding up the final damage assessment and ensuring data accuracy.
 
 Example:
 
 <p align="center">
-  <img src="assets/step2_ai.png" alt="AI Parsing" width="600"/><br>
+  <img src="assets/step2_ai.jpg" alt="AI Parsing" width="600"/><br>
   <em>Final assessment interface featuring AI-extracted garage repair quotes</em>
 </p>
 
@@ -96,11 +96,11 @@ Example:
 
 ### 4. Strict Sequential Verification & Auto-Payout
 
-The system enforces a rigorous on-chain workflow governed by Solidity Smart Contracts[cite: 1]:
+The system enforces a rigorous on-chain workflow governed by Solidity Smart Contracts:
 
-- **Multi-layered Verification:** Claims involving severe damages or human injuries are automatically routed to the Police role[cite: 1]. The Evaluator cannot proceed until the Police digitally verify the incident and append a legal evidence hash on-chain[cite: 1].
-- **Oracle Integration & Auto-Payout:** Upon final approval, the smart contract utilizes **Pyth Network Oracle** to fetch real-time USD/VND exchange rates[cite: 1]. It automatically calculates the indemnity and executes the payout directly to the user's wallet in USDC[cite: 1].
-- **Transparency Ledger:** Every status change, verification step, and financial transaction is permanently logged on the Sepolia Testnet, creating an immutable audit trail[cite: 1].
+- **Multi-layered Verification:** Claims involving severe damages or human injuries are automatically routed to the Police role. The Evaluator cannot proceed until the Police digitally verify the incident and append a legal evidence hash on-chain.
+- **Oracle Integration & Auto-Payout:** Upon final approval, the smart contract utilizes **Pyth Network Oracle** to fetch real-time USD/VND exchange rates. It automatically calculates the indemnity and executes the payout directly to the user's wallet in USDC.
+- **Transparency Ledger:** Every status change, verification step, and financial transaction is permanently logged on the Sepolia Testnet, creating an immutable audit trail.
 
 Example:
 
@@ -156,10 +156,10 @@ To explore the system's logic and design:
 ## Learning Outcomes
 
 Through this project, we:
-- Developed and deployed secure Smart Contracts on the Ethereum Virtual Machine (EVM) using Solidity[cite: 1].
-- Designed a hybrid architecture combining Web2 backends (Next.js, PostgreSQL) with Web3 decentralized storage (IPFS)[cite: 1].
-- Integrated advanced AI models (DocLayNet, TableFormer) into a real-world financial workflow to automate document processing[cite: 1].
-- Translated complex insurance regulations and financial penalty logics into strict, automated algorithmic rules[cite: 1].
+- Developed and deployed secure Smart Contracts on the Ethereum Virtual Machine (EVM) using Solidity.
+- Designed a hybrid architecture combining Web2 backends (Next.js, PostgreSQL) with Web3 decentralized storage (IPFS).
+- Integrated advanced AI models (DocLayNet, TableFormer) into a real-world financial workflow to automate document processing.
+- Translated complex insurance regulations and financial penalty logics into strict, automated algorithmic rules.
 - Enhanced UI/UX design skills by building a cohesive, user-friendly Web3 interface in Figma that simplifies blockchain interactions.
 
 ---
