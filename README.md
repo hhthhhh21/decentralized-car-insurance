@@ -20,7 +20,7 @@ Currently, only the thesis documentation and UI/UX visual assets are uploaded in
 The platform is built on a robust hybrid architecture, seamlessly bridging Web2 components with Web3 decentralized networks.
 
 <p align="center">
-  <img src="assets/architecture.jpg" alt="System Architecture Diagram" width="700"/><br>
+  <img src="assets/architecture.png" alt="System Architecture Diagram" width="700"/><br>
   <em>System Architecture Diagram: Interaction between Web App Layer, Network Layer, Oracles, and Storage</em>
 </p>
 
@@ -28,7 +28,7 @@ The platform is built on a robust hybrid architecture, seamlessly bridging Web2 
 The diagram below illustrates the end-to-end execution flow, from the moment a user submits a claim with evidence to the final automated payout via smart contracts.
 
 <p align="center">
-  <img src="assets/workflow.jpg" alt="Sequential Claim Workflow" width="700"/><br>
+  <img src="assets/workflow.png" alt="Sequential Claim Workflow" width="700"/><br>
   <em>Sequence Diagram: End-to-end workflow from claim submission to automated payout execution</em>
 </p>
 
@@ -48,12 +48,12 @@ Provides an interactive and modern Web3 interface tailored for different roles (
 Example:
 
 <p align="center">
-  <img src="assets/hero_dashboard.jpg" alt="Dashboard Overview" width="600"/><br>
+  <img src="assets/hero_dashboard.png" alt="Dashboard Overview" width="600"/><br>
   <em>Main dashboard overview displaying policy analytics and claim operations</em>
 </p>
 
 <p align="center">
-  <img src="assets/ui_admin.jpg" alt="Admin Dashboard" width="600"/><br>
+  <img src="assets/ui_admin.png" alt="Admin Dashboard" width="600"/><br>
   <em>Admin governance console for tracking fund status and platform analytics</em>
 </p>
 
@@ -67,7 +67,7 @@ A secure portal for customers to declare accidents and submit evidence:
 Example:
 
 <p align="center">
-  <img src="assets/step1_ipfs.jpg" alt="Claim Submission" width="600"/><br>
+  <img src="assets/step1_ipfs.png" alt="Claim Submission" width="600"/><br>
   <em>Claim submission interface with encrypted document upload</em>
 </p>
 
@@ -85,12 +85,12 @@ This is the **core highlight** of the off-chain processing capabilities:
 Example:
 
 <p align="center">
-  <img src="assets/step2_ai.jpg" alt="AI Parsing" width="600"/><br>
+  <img src="assets/step2_ai.png" alt="AI Parsing" width="600"/><br>
   <em>Final assessment interface featuring AI-extracted garage repair quotes</em>
 </p>
 
 <p align="center">
-  <img src="assets/ui_evaluator.jpg" alt="Evaluator Workspace" width="600"/><br>
+  <img src="assets/ui_evaluator.png" alt="Evaluator Workspace" width="600"/><br>
   <em>Evaluator workspace for managing pending assessments</em>
 </p>
 
@@ -105,12 +105,12 @@ The system enforces a rigorous on-chain workflow governed by Solidity Smart Cont
 Example:
 
 <p align="center">
-  <img src="assets/step3_police.jpg" alt="Police Verification" width="600"/><br>
+  <img src="assets/step3_police.png" alt="Police Verification" width="600"/><br>
   <em>Police verification portal for mandatory legal confirmations</em>
 </p>
 
 <p align="center">
-  <img src="assets/step4_ledger.jpg" alt="Transparency Ledger" width="600"/><br>
+  <img src="assets/step4_ledger.png" alt="Transparency Ledger" width="600"/><br>
   <em>On-chain transparency ledger tracking immutable transaction records</em>
 </p>
 
@@ -119,28 +119,29 @@ Example:
 ## UI/UX Design Showcase
 The platform features role-based dashboards tailored to the specific needs of Customers, Evaluators, Police, Garage owners, and System Admins. The entire visual language and UI components were prototyped and designed in Figma.
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <strong>Evaluator Workspace</strong><br>
-      <img src="assets/ui_evaluator.jpg" alt="Evaluator UI" width="400"/>
-    </td>
-    <td align="center">
-      <strong>Police Verification Portal</strong><br>
-      <img src="assets/ui_police.jpg" alt="Police UI" width="400"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <strong>Garage Hub</strong><br>
-      <img src="assets/ui_garage.jpg" alt="Garage UI" width="400"/>
-    </td>
-    <td align="center">
-      <strong>Admin Governance Console</strong><br>
-      <img src="assets/ui_admin.jpg" alt="Admin UI" width="400"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <strong>Evaluator Workspace</strong><br>
+  <img src="assets/ui_evaluator.png" alt="Evaluator UI" width="650"/><br>
+  <em>Dashboard interface for managing evaluations and claim routing</em>
+</p>
+
+<p align="center">
+  <strong>Police Verification Portal</strong><br>
+  <img src="assets/ui_police.png" alt="Police UI" width="650"/><br>
+  <em>Verification portal for reviewing evidence and appending legal hashes</em>
+</p>
+
+<p align="center">
+  <strong>Garage Hub</strong><br>
+  <img src="assets/ui_garage.png" alt="Garage UI" width="650"/><br>
+  <em>Management hub for garage partners to track jobs and submit quotes</em>
+</p>
+
+<p align="center">
+  <strong>Admin Governance Console</strong><br>
+  <img src="assets/ui_admin.png" alt="Admin UI" width="650"/><br>
+  <em>Governance console for tracking fund status, role management, and analytics</em>
+</p>
 
 ---
 
